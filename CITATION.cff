@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: AURORA-FX
+message: "If you use or redistribute this software, preserve this citation and the Origin ID."
+type: software
+authors:
+  - given-names: Kristian
+version: 0.1.0
+date-released: 2026-09-29
+identifiers:
+  - type: other
+    value: AURORA-FX-KRISTIAN-20260929-7F3C9A11
+    description: Project provenance origin identifier

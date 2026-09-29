@@ -1,0 +1,13 @@
+name: Fortran CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install gfortran
+        run: sudo apt-get update && sudo apt-get install -y gfortran
+      - name: Build and test
+        run: make test
+      - name: Verify provenance
+        run: make verify-origin

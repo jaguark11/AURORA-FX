@@ -1,0 +1,10 @@
+name = "aurora-fx"
+version = "0.1.0"
+license = "custom"
+author = "Kristian"
+maintainer = "Kristian"
+copyright = "Copyright 2026 Kristian"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = false
